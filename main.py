@@ -11,9 +11,12 @@ def registrar_estudiante(nombre):
     print("Estudiante registrado:", nombre)
 
 
+def consultar_estudiantes():
+    print("ESTUDIANTES REGISTRADOS")
+    for estudiante in estudiantes:
+        print(estudiante)
+
+
 registrar_estudiante("Juan Pérez")
 registrar_estudiante("María López")
-
-print("Lista de estudiantes:")
-for estudiante in estudiantes:
-    print(estudiante)
+consultar_estudiantes()
