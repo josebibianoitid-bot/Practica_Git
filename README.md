@@ -9,3 +9,9 @@ josebibianoitid-bot
 ## Descripción
 
 Sistema básico para registrar estudiantes.
+
+## Funcionalidades
+
+- Registro de estudiantes.
+- Consulta de estudiantes.
+- Control de versiones con Git.
